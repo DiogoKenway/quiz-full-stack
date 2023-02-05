@@ -8,7 +8,7 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,
+    "strict": true, // mujaqui é o erro que gera quando se cria uma classe
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,

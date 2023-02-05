@@ -5,7 +5,14 @@ export default class QuestaoModel {
     #acertou: boolean;
     // #respondida: boolean;
 
-    constructor(id: number, enunciado: string, resposta: ) {
+    constructor(id: number, enunciado: string, resposta: any[], acertou: boolean) {
+        this.#id = id;
+        this.#enuncido = enunciado;
+        this.#resposta = resposta;
+        this.#acertou = acertou;
+    }
 
+    get id() {
+        return this.#id;
     }
 }
