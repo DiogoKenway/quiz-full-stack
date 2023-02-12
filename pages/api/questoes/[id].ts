@@ -3,6 +3,4 @@ export default function handler(req: any, res: any) {
        id: +req.query.id,
        name: 'Pedro #02' 
     });
-  }
-
-  
+  } 
