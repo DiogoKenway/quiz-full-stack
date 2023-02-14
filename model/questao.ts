@@ -39,7 +39,7 @@ export default class QuestaoModel {
         return false;
     }
 
-    paraObjeto() {
+    converterParaObjeto() {
         return {
             id: this.#id,
             enunciado: this.#enunciado,
