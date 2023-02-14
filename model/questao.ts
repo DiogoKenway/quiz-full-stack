@@ -38,4 +38,10 @@ export default class QuestaoModel {
 
         return false;
     }
+
+    paraObjeto() {
+        return {
+            
+        }
+    }
 }
