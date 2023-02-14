@@ -41,7 +41,10 @@ export default class QuestaoModel {
 
     paraObjeto() {
         return {
-            
+            id: this.#id,
+            enunciado: this.#enunciado,
+            respostas: [],
+            acertou: this.#acertou,
         }
     }
 }
