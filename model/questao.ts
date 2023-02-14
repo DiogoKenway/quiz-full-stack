@@ -7,7 +7,7 @@ export default class QuestaoModel {
     #acertou: boolean;
     // #respondida: boolean;
 
-    constructor(id: number, enunciado: string, respostas: RespostaModel[], acertou: boolean) {
+    constructor(id: number, enunciado: string, respostas: RespostaModel[], acertou: boolean = false) {
         this.#id = id;
         this.#enunciado = enunciado;
         this.#respostas = respostas;
