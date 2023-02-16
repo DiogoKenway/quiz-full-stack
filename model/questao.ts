@@ -47,3 +47,4 @@ export default class QuestaoModel {
             acertou: this.#acertou,
         }
     }
+}
