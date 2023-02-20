@@ -6,12 +6,11 @@ export default  (req: any, res: any) => {
     const unicaQuestaoOuNada = questoes.filter(questao => questao.id === idSelecionado);
 
     if(unicaQuestaoOuNada.length === 1) {
-      const questaoSelecionada = unicaQuestaoOuNada[0]
-      res.status(200).json(questaoSelecionada.paraObjeto())
+      const questaoSelecionada = unicaQuestaoOuNada[0];
+      res.status(200).json(questaoSelecionada.paraObjeto());
     } else {
-
+      res.status(204).send();
     }
-
     res.status(200).json(questoes[0].paraObjeto());
   }
 
