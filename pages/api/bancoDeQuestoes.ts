@@ -33,6 +33,4 @@ const questoes : QuestaoModel[] = [
 
 
 
-
-
 export default questoes;
